@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94348ABC1C51F00200610031 /* CFMTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94348ABB1C51F00200610031 /* CFMTextField.swift */; };
+		94348ABE1C51FBC800610031 /* CFMTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94348ABD1C51FBC800610031 /* CFMTextView.swift */; };
+		94348AC21C52069E00610031 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94348AC11C52069E00610031 /* ProximaNova-Light.otf */; };
+		94C8C26C1C50685200A87F33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C8C26B1C50685200A87F33 /* AppDelegate.swift */; };
+		94C8C26E1C50685200A87F33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C8C26D1C50685200A87F33 /* ViewController.swift */; };
+		94C8C2711C50685200A87F33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C8C26F1C50685200A87F33 /* Main.storyboard */; };
+		94C8C2731C50685200A87F33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C8C2721C50685200A87F33 /* Assets.xcassets */; };
+		94C8C2761C50685200A87F33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C8C2741C50685200A87F33 /* LaunchScreen.storyboard */; };
+		94C8C2831C506A2900A87F33 /* CFMLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C8C2821C506A2900A87F33 /* CFMLabel.swift */; };
+		94C8C2851C506A4E00A87F33 /* CFMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C8C2841C506A4E00A87F33 /* CFMButton.swift */; };
+		94C8C2871C506B9000A87F33 /* CFMGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C8C2861C506B9000A87F33 /* CFMGeneric.swift */; };
+		94C8C28C1C507EC600A87F33 /* ProximaNova-Sbold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94C8C28B1C507EC600A87F33 /* ProximaNova-Sbold.otf */; };
+		94C8C28E1C50816E00A87F33 /* CFMConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94C8C28D1C50816E00A87F33 /* CFMConfig.plist */; };
+		94C8C2901C50B10E00A87F33 /* CFMSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C8C28F1C50B10E00A87F33 /* CFMSegmentedControl.swift */; };
+		B001B1DBD8250DE432DBDCF6 /* libPods-CocoaFontMaster-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BD567CEDC5EB52981B331E /* libPods-CocoaFontMaster-iOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E5CC7C9DB252AAC650D22B1 /* Pods-CocoaFontMaster-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaFontMaster-iOS.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-CocoaFontMaster-iOS/Pods-CocoaFontMaster-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		79BD567CEDC5EB52981B331E /* libPods-CocoaFontMaster-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaFontMaster-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94348ABB1C51F00200610031 /* CFMTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFMTextField.swift; sourceTree = "<group>"; };
+		94348ABD1C51FBC800610031 /* CFMTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFMTextView.swift; sourceTree = "<group>"; };
+		94348AC11C52069E00610031 /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
+		94C8C2681C50685200A87F33 /* CocoaFontMaster-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CocoaFontMaster-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C8C26B1C50685200A87F33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94C8C26D1C50685200A87F33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94C8C2701C50685200A87F33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94C8C2721C50685200A87F33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94C8C2751C50685200A87F33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94C8C2771C50685200A87F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C8C2821C506A2900A87F33 /* CFMLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFMLabel.swift; sourceTree = "<group>"; };
+		94C8C2841C506A4E00A87F33 /* CFMButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFMButton.swift; sourceTree = "<group>"; };
+		94C8C2861C506B9000A87F33 /* CFMGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFMGeneric.swift; sourceTree = "<group>"; };
+		94C8C28B1C507EC600A87F33 /* ProximaNova-Sbold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Sbold.otf"; sourceTree = "<group>"; };
+		94C8C28D1C50816E00A87F33 /* CFMConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CFMConfig.plist; sourceTree = "<group>"; };
+		94C8C28F1C50B10E00A87F33 /* CFMSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFMSegmentedControl.swift; sourceTree = "<group>"; };
+		D927AB28CD04E90CA39897FE /* Pods-CocoaFontMaster-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaFontMaster-iOS.release.xcconfig"; path = "../Pods/Target Support Files/Pods-CocoaFontMaster-iOS/Pods-CocoaFontMaster-iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94C8C2651C50685200A87F33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B001B1DBD8250DE432DBDCF6 /* libPods-CocoaFontMaster-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058E960A1B684FB435B5D0C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E5CC7C9DB252AAC650D22B1 /* Pods-CocoaFontMaster-iOS.debug.xcconfig */,
+				D927AB28CD04E90CA39897FE /* Pods-CocoaFontMaster-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		637BC259955DED1296749CA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79BD567CEDC5EB52981B331E /* libPods-CocoaFontMaster-iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94C8C25F1C50685200A87F33 = {
+			isa = PBXGroup;
+			children = (
+				94C8C2811C5069F800A87F33 /* Lib */,
+				94C8C26A1C50685200A87F33 /* CocoaFontMaster-iOS */,
+				94C8C2691C50685200A87F33 /* Products */,
+				058E960A1B684FB435B5D0C3 /* Pods */,
+				637BC259955DED1296749CA4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94C8C2691C50685200A87F33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94C8C2681C50685200A87F33 /* CocoaFontMaster-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94C8C26A1C50685200A87F33 /* CocoaFontMaster-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				94C8C28A1C507EC600A87F33 /* Res */,
+				94C8C26B1C50685200A87F33 /* AppDelegate.swift */,
+				94C8C26D1C50685200A87F33 /* ViewController.swift */,
+				94C8C26F1C50685200A87F33 /* Main.storyboard */,
+				94C8C2721C50685200A87F33 /* Assets.xcassets */,
+				94C8C2741C50685200A87F33 /* LaunchScreen.storyboard */,
+				94C8C2771C50685200A87F33 /* Info.plist */,
+			);
+			path = "CocoaFontMaster-iOS";
+			sourceTree = "<group>";
+		};
+		94C8C2811C5069F800A87F33 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				94C8C2861C506B9000A87F33 /* CFMGeneric.swift */,
+				94C8C2821C506A2900A87F33 /* CFMLabel.swift */,
+				94C8C2841C506A4E00A87F33 /* CFMButton.swift */,
+				94C8C28F1C50B10E00A87F33 /* CFMSegmentedControl.swift */,
+				94348ABB1C51F00200610031 /* CFMTextField.swift */,
+				94348ABD1C51FBC800610031 /* CFMTextView.swift */,
+			);
+			name = Lib;
+			path = ../Src/iOS;
+			sourceTree = "<group>";
+		};
+		94C8C28A1C507EC600A87F33 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				94C8C28D1C50816E00A87F33 /* CFMConfig.plist */,
+				94C8C28B1C507EC600A87F33 /* ProximaNova-Sbold.otf */,
+				94348AC11C52069E00610031 /* ProximaNova-Light.otf */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94C8C2671C50685200A87F33 /* CocoaFontMaster-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C8C27A1C50685200A87F33 /* Build configuration list for PBXNativeTarget "CocoaFontMaster-iOS" */;
+			buildPhases = (
+				90DEB8E92E2E096136FA37FE /* Check Pods Manifest.lock */,
+				94C8C2641C50685200A87F33 /* Sources */,
+				94C8C2651C50685200A87F33 /* Frameworks */,
+				94C8C2661C50685200A87F33 /* Resources */,
+				A842258035DCCAD72653CB66 /* Embed Pods Frameworks */,
+				D0B7CB2A8BC932982F1A015B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CocoaFontMaster-iOS";
+			productName = "CocoaFontMaster-iOS";
+			productReference = 94C8C2681C50685200A87F33 /* CocoaFontMaster-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94C8C2601C50685200A87F33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CFM;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Maxim Khatskevich";
+				TargetAttributes = {
+					94C8C2671C50685200A87F33 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 94C8C2631C50685200A87F33 /* Build configuration list for PBXProject "CocoaFontMaster-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94C8C25F1C50685200A87F33;
+			productRefGroup = 94C8C2691C50685200A87F33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94C8C2671C50685200A87F33 /* CocoaFontMaster-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94C8C2661C50685200A87F33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C8C2761C50685200A87F33 /* LaunchScreen.storyboard in Resources */,
+				94C8C28C1C507EC600A87F33 /* ProximaNova-Sbold.otf in Resources */,
+				94C8C2731C50685200A87F33 /* Assets.xcassets in Resources */,
+				94C8C28E1C50816E00A87F33 /* CFMConfig.plist in Resources */,
+				94C8C2711C50685200A87F33 /* Main.storyboard in Resources */,
+				94348AC21C52069E00610031 /* ProximaNova-Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90DEB8E92E2E096136FA37FE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A842258035DCCAD72653CB66 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-CocoaFontMaster-iOS/Pods-CocoaFontMaster-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0B7CB2A8BC932982F1A015B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-CocoaFontMaster-iOS/Pods-CocoaFontMaster-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94C8C2641C50685200A87F33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C8C2851C506A4E00A87F33 /* CFMButton.swift in Sources */,
+				94C8C2831C506A2900A87F33 /* CFMLabel.swift in Sources */,
+				94348ABE1C51FBC800610031 /* CFMTextView.swift in Sources */,
+				94C8C26E1C50685200A87F33 /* ViewController.swift in Sources */,
+				94C8C26C1C50685200A87F33 /* AppDelegate.swift in Sources */,
+				94C8C2871C506B9000A87F33 /* CFMGeneric.swift in Sources */,
+				94C8C2901C50B10E00A87F33 /* CFMSegmentedControl.swift in Sources */,
+				94348ABC1C51F00200610031 /* CFMTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94C8C26F1C50685200A87F33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C8C2701C50685200A87F33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94C8C2741C50685200A87F33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C8C2751C50685200A87F33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94C8C2781C50685200A87F33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94C8C2791C50685200A87F33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94C8C27B1C50685200A87F33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E5CC7C9DB252AAC650D22B1 /* Pods-CocoaFontMaster-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CocoaFontMaster-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "khatskevich.maxim.CocoaFontMaster-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94C8C27C1C50685200A87F33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D927AB28CD04E90CA39897FE /* Pods-CocoaFontMaster-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CocoaFontMaster-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "khatskevich.maxim.CocoaFontMaster-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94C8C2631C50685200A87F33 /* Build configuration list for PBXProject "CocoaFontMaster-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C8C2781C50685200A87F33 /* Debug */,
+				94C8C2791C50685200A87F33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C8C27A1C50685200A87F33 /* Build configuration list for PBXNativeTarget "CocoaFontMaster-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C8C27B1C50685200A87F33 /* Debug */,
+				94C8C27C1C50685200A87F33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94C8C2601C50685200A87F33 /* Project object */;
+}
