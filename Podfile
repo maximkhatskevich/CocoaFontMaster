@@ -1,9 +1,9 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-workspace 'CocoaFontMaster'
-xcodeproj 'Example/CocoaFontMaster-iOS'
+workspace 'MKHCocoaFontMaster'
+xcodeproj 'Example/MKHCocoaFontMaster-iOS'
 
-target "CocoaFontMaster-iOS" do
+target "MKHCocoaFontMaster-iOS" do
 
 	platform :ios, '8.0'
 

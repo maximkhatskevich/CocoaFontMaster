@@ -22,15 +22,19 @@
 		94C8C28E1C50816E00A87F33 /* CFMConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94C8C28D1C50816E00A87F33 /* CFMConfig.plist */; };
 		94C8C2901C50B10E00A87F33 /* CFMSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C8C28F1C50B10E00A87F33 /* CFMSegmentedControl.swift */; };
 		B001B1DBD8250DE432DBDCF6 /* libPods-CocoaFontMaster-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BD567CEDC5EB52981B331E /* libPods-CocoaFontMaster-iOS.a */; };
+		DA71E017F1338873002385DC /* libPods-MKHCocoaFontMaster-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A40AEB5429B6678F7ED8179 /* libPods-MKHCocoaFontMaster-iOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A6ACB48703EAEF7F3483CD4 /* Pods-MKHCocoaFontMaster-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKHCocoaFontMaster-iOS.release.xcconfig"; path = "../Pods/Target Support Files/Pods-MKHCocoaFontMaster-iOS/Pods-MKHCocoaFontMaster-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		6E5CC7C9DB252AAC650D22B1 /* Pods-CocoaFontMaster-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaFontMaster-iOS.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-CocoaFontMaster-iOS/Pods-CocoaFontMaster-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7006871CEEB2C08B2D3A87C3 /* Pods-MKHCocoaFontMaster-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKHCocoaFontMaster-iOS.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-MKHCocoaFontMaster-iOS/Pods-MKHCocoaFontMaster-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		79BD567CEDC5EB52981B331E /* libPods-CocoaFontMaster-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaFontMaster-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A40AEB5429B6678F7ED8179 /* libPods-MKHCocoaFontMaster-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKHCocoaFontMaster-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94348ABB1C51F00200610031 /* CFMTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFMTextField.swift; sourceTree = "<group>"; };
 		94348ABD1C51FBC800610031 /* CFMTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFMTextView.swift; sourceTree = "<group>"; };
 		94348AC11C52069E00610031 /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
-		94C8C2681C50685200A87F33 /* CocoaFontMaster-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CocoaFontMaster-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C8C2681C50685200A87F33 /* MKHCocoaFontMaster-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MKHCocoaFontMaster-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C8C26B1C50685200A87F33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94C8C26D1C50685200A87F33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		94C8C2701C50685200A87F33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,6 +56,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B001B1DBD8250DE432DBDCF6 /* libPods-CocoaFontMaster-iOS.a in Frameworks */,
+				DA71E017F1338873002385DC /* libPods-MKHCocoaFontMaster-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +68,8 @@
 			children = (
 				6E5CC7C9DB252AAC650D22B1 /* Pods-CocoaFontMaster-iOS.debug.xcconfig */,
 				D927AB28CD04E90CA39897FE /* Pods-CocoaFontMaster-iOS.release.xcconfig */,
+				7006871CEEB2C08B2D3A87C3 /* Pods-MKHCocoaFontMaster-iOS.debug.xcconfig */,
+				6A6ACB48703EAEF7F3483CD4 /* Pods-MKHCocoaFontMaster-iOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -71,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				79BD567CEDC5EB52981B331E /* libPods-CocoaFontMaster-iOS.a */,
+				8A40AEB5429B6678F7ED8179 /* libPods-MKHCocoaFontMaster-iOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -79,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				94C8C2811C5069F800A87F33 /* Lib */,
-				94C8C26A1C50685200A87F33 /* CocoaFontMaster-iOS */,
+				94C8C26A1C50685200A87F33 /* MKHCocoaFontMaster-iOS */,
 				94C8C2691C50685200A87F33 /* Products */,
 				058E960A1B684FB435B5D0C3 /* Pods */,
 				637BC259955DED1296749CA4 /* Frameworks */,
@@ -89,12 +97,12 @@
 		94C8C2691C50685200A87F33 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				94C8C2681C50685200A87F33 /* CocoaFontMaster-iOS.app */,
+				94C8C2681C50685200A87F33 /* MKHCocoaFontMaster-iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		94C8C26A1C50685200A87F33 /* CocoaFontMaster-iOS */ = {
+		94C8C26A1C50685200A87F33 /* MKHCocoaFontMaster-iOS */ = {
 			isa = PBXGroup;
 			children = (
 				94C8C28A1C507EC600A87F33 /* Res */,
@@ -105,7 +113,7 @@
 				94C8C2741C50685200A87F33 /* LaunchScreen.storyboard */,
 				94C8C2771C50685200A87F33 /* Info.plist */,
 			);
-			path = "CocoaFontMaster-iOS";
+			path = "MKHCocoaFontMaster-iOS";
 			sourceTree = "<group>";
 		};
 		94C8C2811C5069F800A87F33 /* Lib */ = {
@@ -135,24 +143,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		94C8C2671C50685200A87F33 /* CocoaFontMaster-iOS */ = {
+		94C8C2671C50685200A87F33 /* MKHCocoaFontMaster-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94C8C27A1C50685200A87F33 /* Build configuration list for PBXNativeTarget "CocoaFontMaster-iOS" */;
+			buildConfigurationList = 94C8C27A1C50685200A87F33 /* Build configuration list for PBXNativeTarget "MKHCocoaFontMaster-iOS" */;
 			buildPhases = (
-				90DEB8E92E2E096136FA37FE /* Check Pods Manifest.lock */,
+				699A47BEACABA1521A7B2239 /* Check Pods Manifest.lock */,
 				94C8C2641C50685200A87F33 /* Sources */,
 				94C8C2651C50685200A87F33 /* Frameworks */,
 				94C8C2661C50685200A87F33 /* Resources */,
-				A842258035DCCAD72653CB66 /* Embed Pods Frameworks */,
-				D0B7CB2A8BC932982F1A015B /* Copy Pods Resources */,
+				3C187BBB5F75952D34D0BCD1 /* Embed Pods Frameworks */,
+				06AF63D2EFA7B2A16EFD679B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "CocoaFontMaster-iOS";
+			name = "MKHCocoaFontMaster-iOS";
 			productName = "CocoaFontMaster-iOS";
-			productReference = 94C8C2681C50685200A87F33 /* CocoaFontMaster-iOS.app */;
+			productReference = 94C8C2681C50685200A87F33 /* MKHCocoaFontMaster-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 94C8C2631C50685200A87F33 /* Build configuration list for PBXProject "CocoaFontMaster-iOS" */;
+			buildConfigurationList = 94C8C2631C50685200A87F33 /* Build configuration list for PBXProject "MKHCocoaFontMaster-iOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -184,7 +192,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				94C8C2671C50685200A87F33 /* CocoaFontMaster-iOS */,
+				94C8C2671C50685200A87F33 /* MKHCocoaFontMaster-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -206,7 +214,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		90DEB8E92E2E096136FA37FE /* Check Pods Manifest.lock */ = {
+		06AF63D2EFA7B2A16EFD679B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-MKHCocoaFontMaster-iOS/Pods-MKHCocoaFontMaster-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C187BBB5F75952D34D0BCD1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-MKHCocoaFontMaster-iOS/Pods-MKHCocoaFontMaster-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		699A47BEACABA1521A7B2239 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -219,36 +257,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		A842258035DCCAD72653CB66 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-CocoaFontMaster-iOS/Pods-CocoaFontMaster-iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D0B7CB2A8BC932982F1A015B /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-CocoaFontMaster-iOS/Pods-CocoaFontMaster-iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -376,32 +384,32 @@
 		};
 		94C8C27B1C50685200A87F33 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E5CC7C9DB252AAC650D22B1 /* Pods-CocoaFontMaster-iOS.debug.xcconfig */;
+			baseConfigurationReference = 7006871CEEB2C08B2D3A87C3 /* Pods-MKHCocoaFontMaster-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "CocoaFontMaster-iOS/Info.plist";
+				INFOPLIST_FILE = "MKHCocoaFontMaster-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "khatskevich.maxim.CocoaFontMaster-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MKHCocoaFontMaster-iOS";
 			};
 			name = Debug;
 		};
 		94C8C27C1C50685200A87F33 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D927AB28CD04E90CA39897FE /* Pods-CocoaFontMaster-iOS.release.xcconfig */;
+			baseConfigurationReference = 6A6ACB48703EAEF7F3483CD4 /* Pods-MKHCocoaFontMaster-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "CocoaFontMaster-iOS/Info.plist";
+				INFOPLIST_FILE = "MKHCocoaFontMaster-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "khatskevich.maxim.CocoaFontMaster-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MKHCocoaFontMaster-iOS";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		94C8C2631C50685200A87F33 /* Build configuration list for PBXProject "CocoaFontMaster-iOS" */ = {
+		94C8C2631C50685200A87F33 /* Build configuration list for PBXProject "MKHCocoaFontMaster-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94C8C2781C50685200A87F33 /* Debug */,
@@ -410,7 +418,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94C8C27A1C50685200A87F33 /* Build configuration list for PBXNativeTarget "CocoaFontMaster-iOS" */ = {
+		94C8C27A1C50685200A87F33 /* Build configuration list for PBXNativeTarget "MKHCocoaFontMaster-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94C8C27B1C50685200A87F33 /* Debug */,
