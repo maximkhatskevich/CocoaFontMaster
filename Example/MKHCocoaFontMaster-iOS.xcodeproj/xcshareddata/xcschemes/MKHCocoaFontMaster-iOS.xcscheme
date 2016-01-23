@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "94C8C2671C50685200A87F33"
-               BuildableName = "CocoaFontMaster-iOS.app"
-               BlueprintName = "CocoaFontMaster-iOS"
-               ReferencedContainer = "container:CocoaFontMaster-iOS.xcodeproj">
+               BuildableName = "MKHCocoaFontMaster-iOS.app"
+               BlueprintName = "MKHCocoaFontMaster-iOS"
+               ReferencedContainer = "container:MKHCocoaFontMaster-iOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "94C8C2671C50685200A87F33"
-            BuildableName = "CocoaFontMaster-iOS.app"
-            BlueprintName = "CocoaFontMaster-iOS"
-            ReferencedContainer = "container:CocoaFontMaster-iOS.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -56,9 +47,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94C8C2671C50685200A87F33"
-            BuildableName = "CocoaFontMaster-iOS.app"
-            BlueprintName = "CocoaFontMaster-iOS"
-            ReferencedContainer = "container:CocoaFontMaster-iOS.xcodeproj">
+            BuildableName = "MKHCocoaFontMaster-iOS.app"
+            BlueprintName = "MKHCocoaFontMaster-iOS"
+            ReferencedContainer = "container:MKHCocoaFontMaster-iOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,16 +61,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94C8C2671C50685200A87F33"
-            BuildableName = "CocoaFontMaster-iOS.app"
-            BlueprintName = "CocoaFontMaster-iOS"
-            ReferencedContainer = "container:CocoaFontMaster-iOS.xcodeproj">
+            BuildableName = "MKHCocoaFontMaster-iOS.app"
+            BlueprintName = "MKHCocoaFontMaster-iOS"
+            ReferencedContainer = "container:MKHCocoaFontMaster-iOS.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

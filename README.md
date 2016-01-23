@@ -1,3 +1,3 @@
-# CocoaFontMaster
+# MKHCocoaFontMaster
 
-A small tool that helps set fonts for UI controls dynamically based on configuration file.
+Project-wide dynamic fonts configuration for UI controls made simple in Xcode.
